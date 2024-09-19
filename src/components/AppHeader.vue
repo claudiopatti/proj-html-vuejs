@@ -18,7 +18,7 @@ export default {
                 <div class="linkNav d-flex ">
                     <ul class="navbar-nav d-flex flex-row p-3">
                         <li class="nav-item px-3">
-                            <a class="nav-link text-primary" href="#">Home</a>
+                            <a class="nav-link textColorAqua" href="#">Home</a>
                             
                         </li>
                         <li class="nav-item px-3">
@@ -35,15 +35,15 @@ export default {
                         </li>
                     </ul>
 
-                    <button class="btn btn-primary my-3 text-uppercase">
+                    <button class="btn my-3 text-uppercase">
                         make appointment
                     </button>
                 </div>
             </div>
 
             <div class="textHeaderBottom container px-5">
-                <h1 class="text-white">
-                    Caring <span class="text-primary">For Life</span>
+                <h1 class="text-white fw-normal">
+                    Caring <span >For Life</span>
                 </h1>
 
                 <p class="text-white">
@@ -71,10 +71,21 @@ export default {
     background-position: center;
     background-position-y: top;
     background-size: cover;
+    .textColorAqua{
+        color: $colorGeneralAqua;
+    }
+    button {
+        background-color: $colorGeneralAqua;
+    }
 }
 
 .textHeaderBottom {
     padding-top: 150px;
+    h1 {
+        span {
+            color: $colorGeneralAqua;
+        }
+    }
 }
 
 </style>

@@ -1,5 +1,7 @@
 <script>
 import singleTopMain from './singleTopMain.vue';
+import singleComponentMain from './singleComponentMain.vue';
+
 
 export default {
     data() {
@@ -7,6 +9,7 @@ export default {
     },
     components: {
         singleTopMain,
+        singleComponentMain,
     },
     methods: {
         
@@ -16,6 +19,8 @@ export default {
 
 <template>
     <singleTopMain />
+    
+    <singleComponentMain />
 </template>
 
 <style lang="scss">
