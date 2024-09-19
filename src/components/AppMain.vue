@@ -2,6 +2,8 @@
 import singleComponentTopMain from './singleComponentTopMain.vue';
 import singleComponentFirstMain from './singleComponentFirstMain.vue';
 import singleComponentSecondMain from './singleComponentSecondMain.vue';
+import singleComponentThirtyMain from './singleComponentThirtyMain.vue';
+
 
 
 
@@ -12,7 +14,8 @@ export default {
     components: {
         singleComponentTopMain,
         singleComponentFirstMain,
-        singleComponentSecondMain
+        singleComponentSecondMain,
+        singleComponentThirtyMain
     },
     methods: {
         
@@ -26,8 +29,11 @@ export default {
     <singleComponentFirstMain />
 
     <singleComponentSecondMain />
+
+    <singleComponentThirtyMain />
+
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use "../assets/scss/main" as *;
 </style>
