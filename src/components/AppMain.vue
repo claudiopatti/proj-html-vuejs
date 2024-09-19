@@ -1,6 +1,8 @@
 <script>
-import singleTopMain from './singleTopMain.vue';
-import singleComponentMain from './singleComponentMain.vue';
+import singleComponentTopMain from './singleComponentTopMain.vue';
+import singleComponentFirstMain from './singleComponentFirstMain.vue';
+import singleComponentSecondMain from './singleComponentSecondMain.vue';
+
 
 
 export default {
@@ -8,8 +10,9 @@ export default {
         return {};
     },
     components: {
-        singleTopMain,
-        singleComponentMain,
+        singleComponentTopMain,
+        singleComponentFirstMain,
+        singleComponentSecondMain
     },
     methods: {
         
@@ -18,9 +21,11 @@ export default {
 </script>
 
 <template>
-    <singleTopMain />
+    <singleComponentTopMain />
     
-    <singleComponentMain />
+    <singleComponentFirstMain />
+
+    <singleComponentSecondMain />
 </template>
 
 <style lang="scss">

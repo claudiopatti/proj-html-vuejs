@@ -142,10 +142,6 @@ export default {
     width: 200px;
 }
 
-#bgFacebook {
-    background-color: blue;
-}
-
 .iconeCardMain {
     
     .bg-instangram {
