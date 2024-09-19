@@ -9,9 +9,9 @@ export default {
 </script>
 
 <template>
-    <div class="backgroundHeader container-fluid">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center pt-2">
+    <div class="backgroundHeader">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center pt-2 px-3">
                 <div>
                     <img src="../assets/img/medical_logo_1x_light.png" alt="">
                 </div>
@@ -41,7 +41,7 @@ export default {
                 </div>
             </div>
 
-            <div class="textHeaderBottom">
+            <div class="textHeaderBottom container px-5">
                 <h1 class="text-white">
                     Caring <span class="text-primary">For Life</span>
                 </h1>
@@ -74,7 +74,7 @@ export default {
 }
 
 .textHeaderBottom {
-    padding: 250px 0 0 250px;
+    padding-top: 150px;
 }
 
 </style>
