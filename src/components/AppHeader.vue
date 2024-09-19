@@ -9,36 +9,51 @@ export default {
 </script>
 
 <template>
-    <div class="backgroundHeader">
+    <div class="backgroundHeader container-fluid">
         <div class="container">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between align-items-center pt-2">
                 <div>
                     <img src="../assets/img/medical_logo_1x_light.png" alt="">
                 </div>
                 <div class="linkNav d-flex ">
-                    <ul class="navbar-nav d-flex flex-row ">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Home</a>
+                    <ul class="navbar-nav d-flex flex-row p-3">
+                        <li class="nav-item px-3">
+                            <a class="nav-link text-primary" href="#">Home</a>
                             
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-3">
                             <a class="nav-link text-white" href="#">About</a>
 
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-3">
                             <a class="nav-link text-white" href="#">Department</a>
 
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-3">
                             <a class="nav-link text-white" href="#">Articles</a>
 
                         </li>
                     </ul>
 
-                    <button class="btn btn-primary">
+                    <button class="btn btn-primary my-3 text-uppercase">
                         make appointment
                     </button>
                 </div>
+            </div>
+
+            <div class="textHeaderBottom">
+                <h1 class="text-white">
+                    Caring <span class="text-primary">For Life</span>
+                </h1>
+
+                <p class="text-white">
+                    Kind words can be ShorûhduSftospeaklbut their echoes are truly <br>
+                    endless. Avada Health focuses on you as if it was our own family.
+                </p>
+
+                <button class="btn btn-primary text-uppercase">
+                    learn more
+                </button>
             </div>
 
         </div>
@@ -51,6 +66,15 @@ export default {
 
 .backgroundHeader {
     background-image: url(../assets/img/header-image-homepage.jpg);
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-position-y: top;
+    background-size: cover;
+}
+
+.textHeaderBottom {
+    padding: 250px 0 0 250px;
 }
 
 </style>
