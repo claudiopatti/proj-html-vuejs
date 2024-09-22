@@ -38,8 +38,8 @@ export default {
     
             </div>
 
-            <div class="row pb-4">
-            <div class="col-12 col-sm-6 col-md-4 ">
+            <div class="row ">
+            <div class="col-12 col-md-4 pb-4">
                 <div class=" ">
                     <img class="w-100" src="../assets/img/doctor-1.jpg" alt="logo-1">
 
@@ -69,7 +69,7 @@ export default {
                 
 
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
+            <div class="col-12 col-md-4 pb-4">
                 <div class=" ">
                     <img class="w-100" src="../assets/img/doctor-2.jpg" alt="logo-2">
 
@@ -95,7 +95,7 @@ export default {
                     
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
+            <div class="col-12 col-md-4 pb-4">
                 <div class=" ">
                     <img class="w-100" src="../assets/img/doctor-3.jpg" alt="logo-3">
 
@@ -140,6 +140,8 @@ export default {
 
 .barMain {
     width: 200px;
+    border: 1.5px solid ;
+
 }
 
 .iconeCardMain {

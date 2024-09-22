@@ -54,7 +54,7 @@ export default {
                     endless. Avada Health focuses on you as if it was our own family.
                 </p>
 
-                <button class="btn btn-primary text-uppercase">
+                <button class="btn text-uppercase">
                     learn more
                 </button>
             </div>

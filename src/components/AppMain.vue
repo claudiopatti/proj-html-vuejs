@@ -3,6 +3,11 @@ import singleComponentTopMain from './singleComponentTopMain.vue';
 import singleComponentFirstMain from './singleComponentFirstMain.vue';
 import singleComponentSecondMain from './singleComponentSecondMain.vue';
 import singleComponentThirtyMain from './singleComponentThirtyMain.vue';
+import singleComponentFoutyMain from './singleComponentFourtyMain.vue';
+import singleComponentFivetyMain from './singleComponentFivetyMain.vue';
+
+
+
 
 
 
@@ -15,7 +20,9 @@ export default {
         singleComponentTopMain,
         singleComponentFirstMain,
         singleComponentSecondMain,
-        singleComponentThirtyMain
+        singleComponentThirtyMain,
+        singleComponentFoutyMain,
+        singleComponentFivetyMain
     },
     methods: {
         
@@ -31,6 +38,11 @@ export default {
     <singleComponentSecondMain />
 
     <singleComponentThirtyMain />
+
+    <singleComponentFoutyMain />
+
+    <singleComponentFivetyMain />
+
 
 </template>
 

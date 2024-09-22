@@ -55,6 +55,8 @@ export default {
 
 .barMain {
     width: 200px;
+    border: 1.5px solid white;
+    opacity: 1;
 }
 
 .backgroundComponentThirty {

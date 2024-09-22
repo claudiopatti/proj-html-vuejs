@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-    <div class="container px-5 py-5">
+    <div class="container py-5">
         <h3 class="text-center py-2 fw-normal">
             Welcome to Avada Health
         </h3>
