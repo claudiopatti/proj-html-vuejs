@@ -88,23 +88,27 @@ export default {
         padding: 0 200px;
 
         form {
-            input {
+            input , textarea {
                 background: transparent;
                 border: 1px solid white;
                 color: white ;
-            }
-            textarea {
-                background: transparent;
-                border: 1px solid white;
-
+                &:hover {
+                    border: 1px solid  $colorGeneralAqua;
+                    transform: scaleX(1.1);
+                }
             }
 
             button {
                 background-color: $colorGeneralAqua;
+                
+                &:hover {
+                    background-color: $colorGeneralBlu;
+                }
             }
         }
     }
 }
+
 
 
 </style>

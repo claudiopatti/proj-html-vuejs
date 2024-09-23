@@ -1,6 +1,6 @@
 <script>
 
-import AppHeader from "./components/AppHeader.vue";
+import AppHeader from "./components/Header/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppFooter from "./components/Footer/AppFooter.vue";
 
@@ -48,12 +48,17 @@ export default {
         z-index: 2;
         right: 20px;
         bottom: 10px;
+
         
         a {
             background-color: #474747;
             color: white;
             padding: 5px 15px 20px;
             border-radius: 5px;
+            
+            &:hover {
+                background-color: $colorGeneralAqua;
+            }
         }
     
     }

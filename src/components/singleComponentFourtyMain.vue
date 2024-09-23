@@ -14,7 +14,7 @@ export default {
 
 <template>
 
-    <div class="conatiner ">
+    <div class="container-fluid g-0 ">
         <div class="row g-0">
             <div class="col-12 col-lg-4 text-center emergencyCard text-white py-4">
                 <h5 class="pt-3">
@@ -29,7 +29,7 @@ export default {
                     Sed sut perspiciatis unde omnis iste natus error sit voluptatem accusantium dotorem laudantium. totam rem aperiam. eaque
                 </p>
 
-                <button class="text-uppercase btn text-white border-white rounded-0 px-4 mb-3 ">
+                <button class="text-uppercase btn  border-white rounded-0 px-4 mb-3 ">
                     learn more
                 </button>
             </div>
@@ -46,7 +46,7 @@ export default {
                     Sed sut perspiciatis unde omnis iste natus error sit voluptatem accusantium dotorem laudantium. totam rem aperiam. eaque
                 </p>
 
-                <button class="text-uppercase btn text-white border-white rounded-0 px-4 mb-3 ">
+                <button class="text-uppercase btn border-white rounded-0 px-4 mb-3 ">
                     learn more
                 </button>
             </div>
@@ -63,7 +63,7 @@ export default {
                     Sed sut perspiciatis unde omnis iste natus error sit voluptatem accusantium dotorem laudantium. totam rem aperiam. eaque
                 </p>
 
-                <button class="text-uppercase btn text-white border-white rounded-0 px-4 mb-3 ">
+                <button class="text-uppercase btn border-white rounded-0 px-4 mb-3 ">
                     learn more
                 </button>
             </div>
@@ -80,7 +80,13 @@ export default {
     background-color: $colorGeneralAqua;
     p {
         font-size: 13px;
-        
+    }
+    button {
+        color: white;
+        &:hover {
+            background-color: white;
+            color:  $colorGeneralAqua;
+        }
     }
 }
 
@@ -88,7 +94,13 @@ export default {
     background-color: $colorGeneralLightBlu;
     p {
         font-size: 13px;
-        
+    }
+    button {
+        color: white;
+        &:hover {
+            background-color: white;
+            color:  $colorGeneralLightBlu;
+        }
     }
 }
 
@@ -96,7 +108,13 @@ export default {
     background-color: $colorGeneralBlu;
     p {
         font-size: 13px;
-        
+    }
+    button {
+        color: white;
+        &:hover {
+            background-color: white;
+            color:  $colorGeneralBlu;
+        }
     }
 }
 

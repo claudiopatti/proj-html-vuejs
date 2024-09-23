@@ -40,7 +40,7 @@ export default {
 
             <div class="row ">
             <div class="col-12 col-md-4 pb-4">
-                <div class=" ">
+                <div class=" imageDoctor ">
                     <img class="w-100" src="../assets/img/doctor-1.jpg" alt="logo-1">
 
                 </div>
@@ -70,7 +70,7 @@ export default {
 
             </div>
             <div class="col-12 col-md-4 pb-4">
-                <div class=" ">
+                <div class=" imageDoctor">
                     <img class="w-100" src="../assets/img/doctor-2.jpg" alt="logo-2">
 
                 </div>
@@ -98,7 +98,7 @@ export default {
                 </div>
             </div>
             <div class="col-12 col-md-4 pb-4">
-                <div class=" ">
+                <div class=" imageDoctor">
                     <img class="w-100" src="../assets/img/doctor-3.jpg" alt="logo-3">
 
                 </div>
@@ -159,6 +159,15 @@ export default {
     }
     .bg-youtube {
         background-color: red;
+    }
+}
+
+.imageDoctor {
+    img {
+        &:hover {
+            box-shadow: 10px 10px 10px;
+            transform: scale(1.1);
+        }
     }
 }
 

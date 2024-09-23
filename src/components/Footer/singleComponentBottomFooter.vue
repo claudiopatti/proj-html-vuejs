@@ -20,7 +20,7 @@ export default {
             </p>
 
             <p class="border-end border-secondary px-3 text-secondary">
-                <span>Avada Theme by</span> <a class="text-decoration-none text-black" href="#">Theme Fusion</a>
+                <span>Avada Theme by</span> <a class="text-decoration-none" href="#">Theme Fusion</a>
             </p>
 
             <p class="border-end border-secondary px-3 text-secondary">
@@ -28,7 +28,7 @@ export default {
             </p>
 
             <p class="border-end border-secondary px-3 text-secondary">
-                <span>Powered by</span> <a class="text-decoration-none text-black" href="#"> WordPress</a>
+                <span>Powered by</span> <a class="text-decoration-none" href="#"> WordPress</a>
             </p>
         </div>
         
@@ -41,6 +41,13 @@ export default {
 
 .backgroundBottomFooter {
     background-color: #f7f7f7;
+
+    a {
+        color: black;
+        &:hover {
+            color: $colorGeneralAqua;
+        }
+    }
     
 }
 </style>

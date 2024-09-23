@@ -38,7 +38,7 @@ export default {
     </div>
 
     <div class="row pb-4">
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center cardMedicinal">
             <div class=" ">
                 <img class="w-25" src="../assets/img/icon-14.png" alt="logo-1">
 
@@ -59,7 +59,7 @@ export default {
             
 
         </div>
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center cardMedicinal">
             <div class=" ">
                 <img class="w-25" src="../assets/img/icon-15.png" alt="logo-2">
 
@@ -77,7 +77,7 @@ export default {
                 
             </div>
         </div>
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center cardMedicinal">
             <div class=" ">
                 <img class="w-25" src="../assets/img/icon-16.png" alt="logo-3">
 
@@ -97,7 +97,7 @@ export default {
         </div>
     </div>
     <div class="row pb-4">
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center cardMedicinal">
             <div class=" ">
                 <img class="w-25" src="../assets/img/icon-11.png" alt="logo-1">
 
@@ -118,7 +118,7 @@ export default {
             
 
         </div>
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center cardMedicinal">
             <div class=" ">
                 <img class="w-25" src="../assets/img/icon-12.png" alt="logo-2">
 
@@ -136,7 +136,7 @@ export default {
                 
             </div>
         </div>
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center cardMedicinal">
             <div class=" ">
                 <img class="w-25" src="../assets/img/icon-13.png" alt="logo-3">
 
@@ -168,18 +168,12 @@ export default {
     border: 1.5px solid ;
 }
 
-.iconeCardMain {
-    
-    .bg-instangram {
-        background-color: $colorGeneralLightBlu;
-    }
-    .bg-facebook {
-        background-color: $colorGeneralBlu;
-    }
-    .bg-twitter {
-        background-color: $colorGeneralAqua;
+
+.row {
+    .cardMedicinal {
+        &:hover h5{
+            color: $colorGeneralAqua;
+        }
     }
 }
-
-
 </style>

@@ -91,8 +91,8 @@ export default {
             </div>
         </div>
 
-        <div class="pb-5">
-            <button class="btn text-uppercase border border-black py-2 px-5 rounded-0">
+        <div class="pb-5 buttonFooterTop">
+            <button class="btn text-uppercase py-2 px-5 rounded-0">
                 view our departements
             </button>
         </div>
@@ -116,6 +116,17 @@ export default {
         padding: 5px 0;
         i {
             color: $colorGeneralAqua;
+        }
+    }
+}
+
+.buttonFooterTop {
+    button {
+        border: 1px solid black;
+        &:hover {
+            background-color: $colorGeneralAqua;
+            color: white;
+            border-color: $colorGeneralAqua;
         }
     }
 }
