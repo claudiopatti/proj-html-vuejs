@@ -5,6 +5,8 @@ import singleComponentSecondMain from './singleComponentSecondMain.vue';
 import singleComponentThirtyMain from './singleComponentThirtyMain.vue';
 import singleComponentFoutyMain from './singleComponentFourtyMain.vue';
 import singleComponentFivetyMain from './singleComponentFivetyMain.vue';
+import singleComponentSixthMain from './singleComponentSixthMain.vue';
+
 
 
 
@@ -22,7 +24,8 @@ export default {
         singleComponentSecondMain,
         singleComponentThirtyMain,
         singleComponentFoutyMain,
-        singleComponentFivetyMain
+        singleComponentFivetyMain,
+        singleComponentSixthMain
     },
     methods: {
         
@@ -42,6 +45,8 @@ export default {
     <singleComponentFoutyMain />
 
     <singleComponentFivetyMain />
+    
+    <singleComponentSixthMain />
 
 
 </template>
