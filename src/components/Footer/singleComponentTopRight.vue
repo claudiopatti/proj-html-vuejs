@@ -31,10 +31,10 @@ export default {
         </h5>
 
         <div class="iconeCardMain py-5 ">
-            <span class=" bg-facebook btn me-3 text-white"><i class="fa-brands fa-facebook-f"></i></span>
-            <span class=" bg-twitter btn me-3 text-white"><i class="fa-brands fa-twitter"></i></span>
-            <span class=" bg-danger btn me-3 text-white"><i class="fa-brands fa-youtube"></i></span>
-            <span class=" bg-instangram btn text-white"><i class="fa-brands fa-instagram"></i></span>
+            <span class=" bg-facebook btn me-3 text-white btn-outline-primary border-0 "><i class="fa-brands fa-facebook-f"></i></span>
+            <span class=" bg-twitter btn me-3 text-white btn-outline-primary border-0 "><i class="fa-brands fa-twitter"></i></span>
+            <span class="bg-youtube btn me-3 text-white btn-outline-primary border-0 "><i class="fa-brands fa-youtube"></i></span>
+            <span class=" bg-instangram btn text-white btn-outline-primary border-0 "><i class="fa-brands fa-instagram"></i></span>
         </div>
 
     </div>

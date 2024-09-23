@@ -22,11 +22,18 @@ export default {
 </script>
 
 <template>
-    <AppHeader />
+    <div class="containerGeneral">
+        <div class="buttonForReturnUp position-fixed">
+            <a href="AppHeader"> <i class="fa-solid fa-chevron-up"></i> </a>
+        </div>
 
-    <AppMain />
+        <AppHeader />
+    
+        <AppMain />
+    
+        <AppFooter />
 
-    <AppFooter />
+    </div>
 
 </template>
 
@@ -34,4 +41,24 @@ export default {
 @use "assets/scss/main" as *;
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+.containerGeneral {
+    position: relative;
+    .buttonForReturnUp {
+        z-index: 2;
+        right: 20px;
+        bottom: 10px;
+        
+        a {
+            background-color: #474747;
+            color: white;
+            padding: 5px 15px 20px;
+            border-radius: 5px;
+        }
+    
+    }
+}
+
+
+
 </style>

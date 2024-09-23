@@ -31,13 +31,7 @@ export default {
                 <span>Powered by</span> <a class="text-decoration-none text-black" href="#"> WordPress</a>
             </p>
         </div>
-
-        <div class="buttonForReturnUp">
-            <a href="AppHeader"> <i class="fa-solid fa-chevron-up"></i> </a>
-            
-        </div>
         
-
     </div>
     
 </template>
@@ -48,20 +42,5 @@ export default {
 .backgroundBottomFooter {
     background-color: #f7f7f7;
     
-    
-    .buttonForReturnUp {
-        position: relative;
-        
-        a {
-            position: absolute;
-            right: 20px;
-            bottom: 0;
-            background-color: #474747;
-            color: white;
-            padding: 5px 15px 10px;
-            border-radius: 5px;
-        }
-
-    }
 }
 </style>

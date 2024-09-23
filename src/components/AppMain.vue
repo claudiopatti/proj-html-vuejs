@@ -34,6 +34,8 @@ export default {
 </script>
 
 <template>
+    
+
     <singleComponentTopMain />
     
     <singleComponentFirstMain />
@@ -53,4 +55,5 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/scss/main" as *;
+
 </style>

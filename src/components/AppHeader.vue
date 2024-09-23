@@ -2,6 +2,14 @@
 export default {
     data() {
         return { 
+            departments: [
+                'General Pratice',
+                'Cardiology',
+                'Pediatrics',
+                'Diabetes Care',
+                'Pre-natal Care',
+                'Ultrasound Echocardiogram'
+            ]
         
         }
     }
@@ -18,29 +26,41 @@ export default {
                         
                     </a>
                 </div>
-                <div class="linkNav d-flex ">
+                <div class="linkNav d-flex listMenu">
                     <ul class="navbar-nav d-flex flex-row p-3">
                         <li class="nav-item px-3">
-                            <a class="nav-link textColorAqua" href="#">Home</a>
+                            
+                            <a class="nav-link textColorAqua text-uppercase" href="#">home</a>
                             
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link text-white" href="#">About</a>
+
+                            <a class="nav-link text-uppercase" href="#">about</a>
 
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link text-white" href="#">Department</a>
+                            <div class="btn-group mt-1">
+                                <button class="btn text-bottom btn-sm dropdown-toggle fs-6 border-0 text-uppercase" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    departments
+                                </button>
+                                <ul class="dropdown-menu py-0 ">
+                                    <li v-for="department in departments" :key="department"><button class="dropdown-item p-3" type="button">{{ department }}</button></li>
+                                </ul>
+                            </div>
 
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link text-white" href="#">Articles</a>
+                            <a class="nav-link text-uppercase" href="#">articles</a>
 
                         </li>
                     </ul>
 
-                    <button class="btn my-3 text-uppercase">
-                        make appointment
-                    </button>
+                    <div class="buttonMakeAppointment">
+                        <button class="btn my-3 px-3 py-2 text-uppercase text-withe btn-primary border-0">
+                            make appointment
+                        </button>
+
+                    </div>
                 </div>
             </div>
 
@@ -54,7 +74,7 @@ export default {
                     endless. Avada Health focuses on you as if it was our own family.
                 </p>
 
-                <button class="btn text-uppercase">
+                <button class="btn text-uppercase text-withe btn-primary border-0">
                     learn more
                 </button>
             </div>
@@ -74,15 +94,62 @@ export default {
     background-position: center;
     background-position-y: top;
     background-size: cover;
+    
     .textColorAqua{
         color: $colorGeneralAqua;
     }
-    button {
+    .buttonMakeAppointment {
+        button {
         background-color: $colorGeneralAqua;
+        
+        &:hover {
+            background-color: $colorGeneralBlu;
+        }
     }
+    }
+    
+}
+.listMenu {
+    ul {
+        li {
+            a {
+                color: white;
+                
+                &:hover {
+                    color: $colorGeneralAqua;
+                    
+                }
+            }
+
+            .btn-group {
+                .dropdown-toggle {
+                    color: white;
+                    &:hover {
+                        color: $colorGeneralAqua;
+                    }
+                }
+
+                .dropdown-menu {
+                    button {
+                    &:hover {
+                        background-color: $colorGeneralAqua;
+                    }
+                }
+                }
+            }
+        }
+    }
+    
 }
 
 .textHeaderBottom {
+    button {
+        background-color: $colorGeneralAqua;
+        
+        &:hover {
+            background-color: $colorGeneralBlu;
+        }
+    }
     padding-top: 150px;
     h1 {
         span {
