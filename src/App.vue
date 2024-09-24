@@ -24,7 +24,7 @@ export default {
 <template>
     <div class="containerGeneral">
         <div class="buttonForReturnUp position-fixed">
-            <a href="AppHeader"> <i class="fa-solid fa-chevron-up"></i> </a>
+            <a href="appheader"> <i class="fa-solid fa-chevron-up"></i> </a>
         </div>
 
         <AppHeader />
