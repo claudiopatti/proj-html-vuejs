@@ -15,6 +15,9 @@ export default {
         singleComponentTopCenter,
         singleComponentTopEnd
     },
+    props: {
+        dataMedical: Array
+    },
     methods: {
         
     },
@@ -35,7 +38,8 @@ export default {
                 
             </div>
             <div class="col-4">
-                <singleComponentTopEnd />
+                
+                <singleComponentTopEnd :finalDataMedical="dataMedical" />
             </div>
         </div>
     </div>

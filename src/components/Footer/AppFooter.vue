@@ -6,7 +6,56 @@ import singleComponentBottomFooter from './singleComponentBottomFooter.vue';
 
 export default {
     data() {
-        return {};
+        return {
+            originalDataMedical: [
+        
+                {
+                    category : 'Cardiology',
+                    info1: [
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                    ],
+                },
+                {
+                    category : 'Pediatrics',
+                    info1: [
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                    ],
+                },
+                {
+                    category : 'Diabetes Care',
+                    info1: [
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                    ],
+                },
+                {
+                    category : 'Pre-natel Care',
+                    info1: [
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                    ],
+                },
+                {
+                    category : 'Ultrasound Echocardiogram',
+                    info1: [
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                       'Carlos Santos', 
+                    ],
+                },
+            ]
+        };
     },
     components: {
         componentTopFooter,
@@ -19,7 +68,7 @@ export default {
 </script>
 
 <template>
-    <componentTopFooter />
+    <componentTopFooter :dataMedical="originalDataMedical"/>
 
     <singleComponentBottomFooter />
 
