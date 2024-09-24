@@ -1,8 +1,11 @@
 <script>
+import { store } from '../../store.js';
 
 export default {
     data() {
-        return {};
+        return {
+            store
+        };
     },
     components: {
     },
@@ -39,26 +42,24 @@ export default {
             </div>
 
             <div class="row ">
-            <div class="col-12 col-md-4 pb-4">
+            <div v-for="(card, index) in store.cardDoctors" :key="index" class="col-12 col-md-4 pb-4">
                 <div class=" imageDoctor ">
-                    <img class="w-100" src="../../assets/img/doctor-1.jpg" alt="logo-1">
+                    <img class="w-100" :src="card.image" alt="logo-1">
 
                 </div>
 
                 <div class="ps-4 py-4 bg-white">
                     
-                    <h5 class="py-2 text-uppercase">jhon show</h5>
+                    <h5 class="py-2 text-uppercase">{{ card.name}}</h5>
 
-                    <h6>Anesthesiologist</h6>
+                    <h6>{{ card.work }}</h6>
 
     
-                    <p class=" textMainTopCard py-4 ">
-                        At vero eos et accusamus et iusto odio <br>
-                        dignissimos ducimus qui blanditiis <br>
-                        praesentium voluptatum deleniti atque
+                    <p class=" textMainTopCard py-4 lh-lg">
+                        {{ card.description}}
                     </p>
                    
-                    <div class="iconeCardMain">
+                    <div class="iconeCardMain ">
                         <span class=" bg-facebook btn me-3 text-white btn-outline-primary border-0 "><i class="fa-brands fa-facebook-f"></i></span>
                         <span class=" bg-twitter btn me-3 text-white btn-outline-primary border-0 "><i class="fa-brands fa-twitter"></i></span>
                         <span class=" bg-instangram btn text-white btn-outline-primary border-0 "><i class="fa-brands fa-instagram"></i></span>
@@ -69,7 +70,7 @@ export default {
                 
 
             </div>
-            <div class="col-12 col-md-4 pb-4">
+            <!-- <div class="col-12 col-md-4 pb-4">
                 <div class=" imageDoctor">
                     <img class="w-100" src="../../assets/img/doctor-2.jpg" alt="logo-2">
 
@@ -123,7 +124,7 @@ export default {
 
                 </div>
 
-            </div>
+            </div> -->
         </div>
     
         </div>
@@ -165,8 +166,9 @@ export default {
 .imageDoctor {
     img {
         &:hover {
-            box-shadow: 10px 10px 10px;
-            transform: scale(1.1);
+            transition: 300ms;
+            box-shadow: 10px 10px 7px lightgrey;
+            transform: scale(1.03);
         }
     }
 }
