@@ -20,7 +20,7 @@ export default {
             <div class="text-center py-4 text-white">
     
                 <div class="py-3">
-                    <img src="../assets/img/icon-7.png" alt="logo-7">
+                    <img src="../../assets/img/icon-7.png" alt="logo-7">
                 </div>
         
                 <h2 class="text-uppercase fw-normal ">our health services</h2>
@@ -50,8 +50,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../assets/scss/main" as *;
-@use '../assets/scss/partials/variables' as *;
+@use "../../assets/scss/main" as *;
+@use '../../assets/scss/partials/variables' as *;
 
 .barMain {
     width: 200px;
@@ -60,7 +60,7 @@ export default {
 }
 
 .backgroundComponentThirty {
-    background-image: url(../assets/img/paralax-bg-tour-facilities.jpg);
+    background-image: url(../../assets/img/paralax-bg-tour-facilities.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;

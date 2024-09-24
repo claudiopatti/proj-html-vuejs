@@ -1,11 +1,11 @@
 <script>
-import singleComponentTopMain from './singleComponentTopMain.vue';
-import singleComponentFirstMain from './singleComponentFirstMain.vue';
-import singleComponentSecondMain from './singleComponentSecondMain.vue';
-import singleComponentThirtyMain from './singleComponentThirtyMain.vue';
-import singleComponentFoutyMain from './singleComponentFourtyMain.vue';
-import singleComponentFivetyMain from './singleComponentFivetyMain.vue';
-import singleComponentSixthMain from './singleComponentSixthMain.vue';
+import singleComponentTopMain from '../Main/singleComponentTopMain.vue';
+import singleComponentFirstMain from '../Main/singleComponentFirstMain.vue';
+import singleComponentSecondMain from '../Main/singleComponentSecondMain.vue';
+import singleComponentThirtyMain from '../Main/singleComponentThirtyMain.vue';
+import singleComponentFoutyMain from '../Main/singleComponentFourtyMain.vue';
+import singleComponentFivetyMain from '../Main/singleComponentFivetyMain.vue';
+import singleComponentSixthMain from '../Main/singleComponentSixthMain.vue';
 
 
 
@@ -54,6 +54,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../assets/scss/main" as *;
+@use "../../assets/scss/main" as *;
 
 </style>

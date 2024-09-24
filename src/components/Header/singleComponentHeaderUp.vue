@@ -28,12 +28,12 @@ export default {
 
     <div class="linkNav d-flex listMenu">
         <ul class="navbar-nav d-flex flex-row p-3">
-            <li class="nav-item px-3">
+            <li class="nav-item px-3 d-none d-sm-block">
                 
                 <a class="nav-link textColorAqua text-uppercase" href="#">home</a>
                 
             </li>
-            <li class="nav-item px-3">
+            <li class="nav-item px-3  d-none d-md-block">
 
                 <a class="nav-link text-uppercase" href="#">about</a>
 
@@ -49,13 +49,13 @@ export default {
                 </div>
 
             </li>
-            <li class="nav-item px-3">
+            <li class="nav-item px-3 d-none d-md-block">
                 <a class="nav-link text-uppercase" href="#">articles</a>
 
             </li>
         </ul>
 
-        <div class="buttonMakeAppointment">
+        <div class="buttonMakeAppointment d-none d-lg-block ">
             <button class="btn my-3 px-3 py-2 text-uppercase text-withe btn-primary border-0">
                 make appointment
             </button>

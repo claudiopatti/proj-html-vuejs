@@ -22,7 +22,7 @@ export default {
                 </h5>
 
                 <div class="py-3">
-                    <img src="../assets/img/wave-divider.png" alt="wave-icone">
+                    <img src="../../assets/img/wave-divider.png" alt="wave-icone">
                 </div>
 
                 <p class="py-2 lh-lg">
@@ -39,7 +39,7 @@ export default {
                 </h5>
 
                 <div class="py-3">
-                    <img src="../assets/img/wave-divider.png" alt="wave-icone">
+                    <img src="../../assets/img/wave-divider.png" alt="wave-icone">
                 </div>
 
                 <p class="py-2 lh-lg">
@@ -56,7 +56,7 @@ export default {
                 </h5>
 
                 <div class="py-3">
-                    <img src="../assets/img/wave-divider.png" alt="wave-icone">
+                    <img src="../../assets/img/wave-divider.png" alt="wave-icone">
                 </div>
 
                 <p class="py-2 lh-lg">
@@ -73,8 +73,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../assets/scss/main" as *;
-@use '../assets/scss/partials/variables' as *;
+@use "../../assets/scss/main" as *;
+@use '../../assets/scss/partials/variables' as *;
 
 .emergencyCard {
     background-color: $colorGeneralAqua;

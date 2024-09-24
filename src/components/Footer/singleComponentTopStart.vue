@@ -15,7 +15,7 @@ export default {
 
 <template>
     <div class="pt-5 ps-5">
-        <div>
+        <div class="container-fluid ps-0">
             <img src="../../assets/img/medical_logo_1x_Dark.png" alt="">
         </div>
 

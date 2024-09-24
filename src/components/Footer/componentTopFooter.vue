@@ -1,5 +1,5 @@
 <script>
-import singleComponentTopRight from './singleComponentTopRight.vue';
+import singleComponentTopStart from './singleComponentTopStart.vue';
 import singleComponentTopCenter from './singleComponentTopCenter.vue';
 import singleComponentTopEnd from './singleComponentTopEnd.vue';
 
@@ -11,7 +11,7 @@ export default {
         return {};
     },
     components: {
-        singleComponentTopRight,
+        singleComponentTopStart,
         singleComponentTopCenter,
         singleComponentTopEnd
     },
@@ -28,16 +28,16 @@ export default {
 
     <div class="conatiner">
         <div class="row g-0">
-            <div class="col-4">
-                <singleComponentTopRight />
+            <div class="col-12 col-md-4">
+                <singleComponentTopStart />
 
                 
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <singleComponentTopCenter />
                 
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 
                 <singleComponentTopEnd :finalDataMedical="dataMedical" />
             </div>

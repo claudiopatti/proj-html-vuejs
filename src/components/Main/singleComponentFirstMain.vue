@@ -20,7 +20,7 @@ export default {
             <div class="text-center py-4">
     
                 <div class="py-3">
-                    <img src="../assets/img/icon-5.png" alt="logo-5">
+                    <img src="../../assets/img/icon-5.png" alt="logo-5">
                 </div>
         
                 <h2 class="text-uppercase fw-normal ">meet our doctors</h2>
@@ -41,7 +41,7 @@ export default {
             <div class="row ">
             <div class="col-12 col-md-4 pb-4">
                 <div class=" imageDoctor ">
-                    <img class="w-100" src="../assets/img/doctor-1.jpg" alt="logo-1">
+                    <img class="w-100" src="../../assets/img/doctor-1.jpg" alt="logo-1">
 
                 </div>
 
@@ -71,7 +71,7 @@ export default {
             </div>
             <div class="col-12 col-md-4 pb-4">
                 <div class=" imageDoctor">
-                    <img class="w-100" src="../assets/img/doctor-2.jpg" alt="logo-2">
+                    <img class="w-100" src="../../assets/img/doctor-2.jpg" alt="logo-2">
 
                 </div>
 
@@ -99,7 +99,7 @@ export default {
             </div>
             <div class="col-12 col-md-4 pb-4">
                 <div class=" imageDoctor">
-                    <img class="w-100" src="../assets/img/doctor-3.jpg" alt="logo-3">
+                    <img class="w-100" src="../../assets/img/doctor-3.jpg" alt="logo-3">
 
                 </div>
 
@@ -132,8 +132,8 @@ export default {
 </template>
 
 <style lang="scss">
-@use "../assets/scss/main" as *;
-@use '../assets/scss/partials/variables' as *;
+@use "../../assets/scss/main" as *;
+@use '../../assets/scss/partials/variables' as *;
 
 
 .sectionComponentMain {
